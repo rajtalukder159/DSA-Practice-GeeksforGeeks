@@ -1,0 +1,30 @@
+class Solution {
+  public:
+    vector<int> constructList(int q, vector<vector<int>> &queries) {
+        using namespace std;
+
+        // Store cumulative Bitwise XOR
+        int xr = 0;
+
+        // Initialize final list to return
+        vector<int> ans;
+
+        // Perform each query
+        for (int i = q - 1; i >= 0; i--) {
+            if (queries[i][0] == 0) {
+                ans.push_back(queries[i][1] ^ xr);
+            } else {
+                xr ^= queries[i][1];
+            }
+        }
+
+        // The initial value of 0
+        ans.push_back(xr);
+
+        // Sort the list
+        sort(ans.begin(), ans.end());
+
+        // Return final list
+        return ans;
+    }
+};
