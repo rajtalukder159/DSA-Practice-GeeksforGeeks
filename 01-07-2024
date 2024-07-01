@@ -1,0 +1,29 @@
+// User function Template for Java
+class Solution {
+    public static Tree convert(Node head, Tree node) {
+        node = new Tree(head.data);
+        bfs(head.next,node);
+        return node;
+    }
+    
+    static void bfs(Node head,Tree node){
+        
+        Queue<Tree> q = new LinkedList<>();
+        q.add(node);
+        
+        while(!q.isEmpty()){
+            Tree par = q.remove();
+            
+            if(head==null)  return;
+            par.left = new Tree(head.data);
+            head=head.next;
+            q.add(par.left);
+            
+            if(head==null)  return;
+            par.right = new Tree(head.data);
+            head=head.next;
+            q.add(par.right);
+        }
+        
+    }
+}
