@@ -31,8 +31,4 @@ This repository contains my personal practice and solutions to **Data Structures
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
----
-
-## 📂 Folder Structure
-
 
