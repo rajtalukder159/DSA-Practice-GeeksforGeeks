@@ -24,8 +24,10 @@ class Solution {
         for (int i = 0; i < n; i++) {
             if (x == 0) {
                 ans += v[i][1];
+                y--;
             } else if (y == 0) {
                 ans += v[i][0];
+                x--;
             } else {
                 if (v[i][0] > v[i][1]) {
                     ans += v[i][0];

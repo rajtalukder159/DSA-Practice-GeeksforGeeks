@@ -1,6 +1,7 @@
+#include <algorithm>
 class Solution {
-  public:
-    /*You are requried to complete this method */
+public:
+    /*You are required to complete this method */
     long long max_Books(int arr[], int n, int k) {
         // Your code here
         long long ans=0, curr=0;

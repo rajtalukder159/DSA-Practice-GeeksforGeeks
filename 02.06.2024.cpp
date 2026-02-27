@@ -13,7 +13,7 @@ class Solution {
                 x^=arr[i][1];
             }
         }
-        ans.push_back(0^x);
+        ans.push_back(x);
         sort(ans.begin(), ans.end());
         return ans;
     }
