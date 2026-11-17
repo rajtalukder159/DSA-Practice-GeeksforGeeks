@@ -60,18 +60,6 @@ geeks-for-geeks--problem-solve/
 
 ---
 
-## 💡 Key Learnings
-
-| Concept | Key Insight | Complexity |
-|---------|-------------|-----------|
-| XOR Operations | Properties: `a ^ a = 0`, `a ^ 0 = a` | O(1) |
-| Binary Search | Requires sorted array, careful boundary handling | O(log n) |
-| Greedy Approach | Local optimal choices lead to global optimum | Varies |
-| Sliding Window | Efficient for subarray problems | O(n) |
-| Dynamic Programming | Trade space for time through memoization | Varies |
-
----
-
 ## 🚀 How to Use
 
 1. **Browse Solutions** - Navigate through date-based folders or specific problem files
@@ -97,7 +85,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🤝 Connect
 
-- GitHub: [@rajtalukder159](https://github.com/rajtalukder159)
+- website: [@rajtalukder159](https://rajtalukder159.tech/)
 - Contributions and suggestions are welcome!
 
 **Happy Coding! 🚀**
